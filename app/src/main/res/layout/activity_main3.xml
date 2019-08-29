@@ -52,6 +52,7 @@
             android:layout_below="@+id/btnChuyenDoi"
             android:layout_marginLeft="3dp"
             android:layout_toRightOf="@id/textView2"
+            android:text=""
             android:gravity="center"/>
     </RelativeLayout>
 

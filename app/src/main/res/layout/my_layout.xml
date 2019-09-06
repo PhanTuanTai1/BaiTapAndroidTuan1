@@ -1,0 +1,25 @@
+<LinearLayout android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgFace"
+        android:layout_weight="1"
+        android:layout_gravity="center"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editInfor"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textAlignment="center"></TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgNation"
+        android:layout_weight="1"
+        android:layout_gravity="center"></ImageView>
+</LinearLayout>

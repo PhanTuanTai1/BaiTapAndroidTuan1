@@ -1,0 +1,106 @@
+<LinearLayout android:layout_height="match_parent"
+             android:layout_width="match_parent"
+
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ NHÂN VIÊN"
+        android:gravity="center"></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã nhân viên:"
+            ></TextView>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="19dp"
+            android:id="@+id/editMaNV"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên nhân viên:"
+            android:gravity="center"></TextView>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/editTenNV"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giới tính:"
+            android:layout_gravity="center"
+            ></TextView>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="51dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nữ"
+                android:id="@+id/rbNu"></RadioButton>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nam"
+                android:id="@+id/rbNam"></RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Nhập"
+        android:layout_gravity="right"
+        android:onClick="AddEmployee"></Button>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Danh sách nhân viên:"></TextView>
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:src="@drawable/delete"
+            android:onClick="DeleteEmployee"></ImageView>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lstNV"></ListView>
+</LinearLayout>

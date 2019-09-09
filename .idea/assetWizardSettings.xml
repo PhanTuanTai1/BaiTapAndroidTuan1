@@ -60,8 +60,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="C:\Users\tn\Downloads\vietnamese.png" />
-                                      <entry key="outputName" value="tai" />
+                                      <entry key="imageAsset" value="G:\Download\delete.png" />
+                                      <entry key="outputName" value="delete" />
                                       <entry key="theme" value="HOLO_DARK" />
                                       <entry key="themeColor" value="ffffff" />
                                     </map>

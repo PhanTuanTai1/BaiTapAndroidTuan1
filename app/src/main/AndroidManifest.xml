@@ -9,17 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FootballPlayer1">
+        <activity android:name=".ListViewCustomNhanVien">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Bai5_2">
-
-        </activity>
-        <activity android:name=".Bai4"></activity>
+        <activity android:name=".FootballPlayer1"></activity>
+        <activity android:name=".Bai5_2" />
+        <activity android:name=".Bai4" />
         <activity android:name=".MainActivity" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".Main3Activity" />
